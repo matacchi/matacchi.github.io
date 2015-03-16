@@ -52,20 +52,14 @@ table {
 
 img  {
     float: right;
+	width:;
 	margin:20px 20px 20px 20px;
-	width: 60px;
 }
 
 article 1 {
 	float:right;
 }
 /* -----------------END RESET---------------- */
-
-
-
-article {
-	margin: 10px;
-}
 
 body {
 	padding:80px;	
