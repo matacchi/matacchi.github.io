@@ -53,14 +53,10 @@ table {
 
 
 /* -----------------END RESET---------------- */
-	.article1 {
-		float:left;
-		width:50%;
-	}
 	
-	.article2 {
-		float: right;
-		width:50%;
+	article {
+		float: left;
+		width:45%;
 	}
 
 h2 {
