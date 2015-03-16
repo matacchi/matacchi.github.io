@@ -61,6 +61,8 @@ img  {
 
 article {
 	padding:100px;
+	width:1000px
+	position:relative;
 }
 
 
