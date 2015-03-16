@@ -48,16 +48,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
 
-img  {
-    float: right;
-	width:;
-	margin:20px 20px 20px 20px;
-}
 
-article 1 {
-	float:right;
+article {
+	float:left;
+	width:50%;
 }
 /* -----------------END RESET---------------- */
 
