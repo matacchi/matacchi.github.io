@@ -76,8 +76,8 @@ h2 {
 	font-size:12px;;
 }
 
-p {font-size:10px
-	align:left;
+p {font-size:10px;
+	float:left;
 }
 
 h1 {font-size:25px;
