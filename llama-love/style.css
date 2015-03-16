@@ -61,10 +61,11 @@ img  {
 
 article {
 	padding:100px;
-	width:500px
-	position:relative;
 }
 
-
+body {
+width:500px
+position:relative;
+}
 
 
