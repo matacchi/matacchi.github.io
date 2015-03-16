@@ -50,14 +50,17 @@ table {
 	border-spacing: 0;
 }
 
-/* -----------------END RESET---------------- */
-
 img  {
     float: left;
 	margin:20px 20px 20px 20px;
 }
 
-article {padding:100px;
+/* -----------------END RESET---------------- */
+
+
+
+article {
+	padding:100px;
 }
 
 
