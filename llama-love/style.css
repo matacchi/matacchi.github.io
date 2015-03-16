@@ -60,13 +60,17 @@ img  {
 
 
 article {
-	padding:100px;
+	padding: 0px;
 }
 
 body {
-padding:20px;	
-width:500px;
-position:relative;
+	padding:80px;	
+	width:700px;
+	position: relative;
+}
+
+h2 {
+	font-color:gray;
 }
 
 
