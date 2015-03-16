@@ -53,7 +53,7 @@ table {
 /* -----------------END RESET---------------- */
 
 img  {
-    float: right;
+    float: left;
 }
 
 article {padding-top:5px; (-left, -right, -top, -bottom)}
