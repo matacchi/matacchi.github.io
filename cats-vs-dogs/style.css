@@ -53,5 +53,8 @@ table {
 -----END RESET---------------- */
 
 h1 {color:purple
-	font-family:futura;
+	font-family:Helvetica;
 }	
+
+h2 {width:20px;
+}
