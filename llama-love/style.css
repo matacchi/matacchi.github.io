@@ -50,17 +50,18 @@ table {
 	border-spacing: 0;
 
 
-article {
-	float:left;
-	width:50%;
-}
-/* -----------------END RESET---------------- */
 
-body {
-	padding:80px;	
-	width:1000px;
-	position: relative;
-}
+
+/* -----------------END RESET---------------- */
+	.article1 {
+		float:left;
+		width:50%;
+	}
+	
+	.article2 {
+		float: right;
+		width:50%;
+	}
 
 h2 {
 	font-size:12px;;
