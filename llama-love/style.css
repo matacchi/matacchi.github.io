@@ -73,9 +73,14 @@ body {
 }
 
 h2 {
-	font-color:gray;
+	font-size:12px;;
 }
 
+p {font-size:10px;
+}
+
+h1 {font-size:18px;
+}
 
 
 
