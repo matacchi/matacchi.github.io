@@ -60,4 +60,8 @@ h1 {font-size:100px;
 h2 {font-size:30px;
 }
 
+ol {
+	padding:80px;	
+	width:1000px;
+	position: relative;
 
