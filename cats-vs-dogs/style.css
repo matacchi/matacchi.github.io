@@ -62,8 +62,12 @@ h2 {width:500px;
 }
 
 nav {color: green;
-	font-size:30px
+	font-size:30px;
 }
+
+section {float:left;
+		width:45%;
+	}
 
 
 
