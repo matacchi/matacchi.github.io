@@ -48,12 +48,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
 
 
 
 
 /* -----------------END RESET---------------- */
-	
 	article {
 		float: left;
 		width:45%;
