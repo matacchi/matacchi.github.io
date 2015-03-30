@@ -52,7 +52,7 @@ table {
 
 -----END RESET---------------- */
 
-section {font-size:50px;
+h1 {font-size:40px;
 	font-family:Helvetica;
 }	
 
@@ -67,6 +67,8 @@ nav {color: green;
 section {float:left;
 		width:45%;
 	}
+	
+	
 
 
 
