@@ -81,6 +81,14 @@ ul {padding:10px;
 	    padding: 15px;
 	}
 
+	.col1
+	{
+	    float: left;
+	    width: 20%;
+	    font-size: 24px;
+	    padding: 30px;
+		
+	}
 
 	.row{
 
