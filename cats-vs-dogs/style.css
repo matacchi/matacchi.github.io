@@ -52,7 +52,7 @@ table {
 
 -----END RESET---------------- */
 
-h1 {font-size:40px;
+header {font-size:40px;
 	font-family:Helvetica;
 }	
 
@@ -68,6 +68,7 @@ section {float:left;
 		width:45%;
 	}
 	
+<img src="images/dogvscat-logo.gif">	
 	
 
 
