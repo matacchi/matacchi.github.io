@@ -60,9 +60,17 @@ h2 {width:500px;
 	font-family:Helvetica;
 }
 
-nav {color: green;
-	font-size:20px;
-}
+#main-menu  {
+    position:absolute;
+    top:20px;
+    right:20px;
+    background-color:teal;
+    float:right;
+    border-radius:5px;
+    box-shadow:4px 4px 4px #ddd;
+    padding:0 10px;
+    margin:0 20px;
+ }
 
 section {float:left;
 		width:45%;
