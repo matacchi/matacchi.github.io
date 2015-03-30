@@ -70,7 +70,10 @@ p {
   width:960px;
 }
 
-
+#main-menu { 
+    margin:0 auto;
+    width:960px;
+  }
 
 
 
