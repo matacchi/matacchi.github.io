@@ -57,7 +57,11 @@ h1 {font-size:100px;
 	font-family:Helvetica;
 }
 
-h2 {font-size:30px
+h2 {font-size:70px;
+	font-family:Helvetica;
+}
+
+h3 {font-size:30px
 	padding:10px;
 }
 
