@@ -68,8 +68,12 @@ section {float:left;
 		width:45%;
 	}
 	
-<img src="images/dogvscat-logo.gif">	
-	
+.gif {
+	padding:50px;
+    position:absolute;
+    top:100px; 
+    left:160px;
+  }
 
 
 
