@@ -68,12 +68,11 @@ section {float:left;
 		width:45%;
 	}
 	
-.gif {
-	padding:50px;
-    position:absolute;
-    top:100px; 
-    left:160px;
-  }
+p {
+  margin:0 auto;
+  width:960px;
+}
+
 
 
 
