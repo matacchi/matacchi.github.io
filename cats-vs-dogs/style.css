@@ -52,7 +52,7 @@ table {
 
 -----END RESET---------------- */
 
-header {font-size:40px;
+p1 {font-size:100px;
 	font-family:Helvetica;
 }	
 
@@ -71,7 +71,7 @@ p {
 }
 
 ul {
-    width: 100%;
+    width: 960px;
     padding: 50px;
     margin: 0 auto;
     list-style-type: none;
