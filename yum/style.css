@@ -83,12 +83,14 @@ ul {padding:10px;
 
 	.col1
 	{
-	    float: right;
-	    width: 40%;
+	    float: left;
+	    width: 20%;
 	    font-size: 24px;
-	    padding: 15px;
+	    padding: 40px;
 		
 	}
+	
+	.col2
 
 	.row{
 
