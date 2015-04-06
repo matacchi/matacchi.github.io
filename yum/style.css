@@ -93,15 +93,9 @@ ul {padding:10px;
 		
 	}
 	
-	.col2
-	{
-	    float: left;
-	    width: 20%;
-	    font-size: 24px;
-	    padding: 60px;
-		
-	}
-	
+	section
+	{  float: left;
+	    width: 20%;}
 	
 
 	.row{
