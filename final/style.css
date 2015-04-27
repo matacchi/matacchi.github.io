@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    background-color:#666666;
+}
+
+#body {
+    background-color:#666666;
+    width:960px;
+    height:500px;
+    border:2px solid #FFFFFF;
+    margin-top:50px auto;
+}
+
+.navbar {
+    position:relative;
+    list-style:none;
+    border-bottom:none;
+    float:left;
+}
+
+ul.navbar li {
+    float:left;
+}
+
+ul.navbar a {
+    background-color:#66FF33;
+
+    margin:0px;
+    padding:5px;
+    text-decoration:none;
+    color:#
+}
+
+ul.navbar a:hover {
+    width:8em;
+    margin:0px;
+    background-color:#33FFD7;
+    padding:5px;
+}
+
+body {
+    background-color:#333333;
+}
