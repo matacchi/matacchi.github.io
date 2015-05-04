@@ -48,6 +48,7 @@ body {
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 5000px;
   height: 100%;
   width: 100%;
 }
@@ -58,6 +59,7 @@ body {
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 5000px;
   height: 100%;
   width: 100%;
 }
