@@ -46,3 +46,13 @@ ul.navbar a:hover {
 body {
     background-color:#333333;
 }
+
+.bounding-box {
+  background-image: url(file://localhost/Users/michelletacchi/Desktop/matacchi.github.io/final/IMG_0014.png);
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
