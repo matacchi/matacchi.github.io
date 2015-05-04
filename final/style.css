@@ -15,11 +15,11 @@ div.logo p {
 #container {
     margin-left:auto;
     margin-right:auto;
-    width:960px;
+    width:2000px;
 }
 
 #body {
-    width:960px;
+    width:2000px;
     height:500px;
     margin-top:50px auto;
 }
@@ -35,19 +35,7 @@ ul.navbar li {
     float:left;
 }
 
-ul.navbar a {
-    margin:0px;
-    padding:5px;
-    text-decoration:none;
-    color:#
-}
 
-ul.navbar a:hover {
-    width:8em;
-    margin:0px;
-    background-color:#33FFD7;
-    padding:5px;
-}
 
 body {
     background-color:#707070;
