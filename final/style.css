@@ -5,11 +5,9 @@
     margin-left:auto;
     margin-right:auto;
     width:960px;
-    background-color:#666666;
 }
 
 #body {
-    background-color:#666666;
     width:960px;
     height:500px;
     border:2px solid #FFFFFF;
@@ -28,7 +26,7 @@ ul.navbar li {
 }
 
 ul.navbar a {
-    background-color:#66FF33;
+    background-color:#C0C0C0;
 
     margin:0px;
     padding:5px;
