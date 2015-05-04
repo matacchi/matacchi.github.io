@@ -43,7 +43,7 @@ body {
 }
 
 .bounding-box {
-  background-image: url(file://localhost/Users/michelletacchi/Desktop/matacchi.github.io/final/IMG_0014.png);
+  background-image: <img src='IMG_0014.png' alt="chiclet"/>;
   background-size: contain;
   position: absolute;
   background-position: center;
@@ -53,7 +53,7 @@ body {
 }
 
 .bounding-box {
-  background-image: url(file://localhost/Users/michelletacchi/Desktop/matacchi.github.io/final/IMG_0028.png);
+  background-image: <img src= 'IMG_0028.png' alt= "whales"/>;
   background-size: contain;
   position: absolute;
   background-position: center;
