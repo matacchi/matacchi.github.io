@@ -1,41 +1,101 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head><script type="text/javascript" src="path/to/easing.js"></script>
+<script type="text/javascript" src="path/to/mousewheel.js"></script>
+<button class="prev">&laquo;</button>
+<button class="next">&raquo;</button>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Simple Site</title>
 </head>
 
 <body>
-	<div class=logo>
-	<p><img src= 'my name gray.jpg' alt= "logo"/></p></div>
+	<header>
+	<h1 class=logo>
+	<img src= 'my name gray.jpg' alt= "logo"/></h1>
+		<nav>
+   		 <ul class="navbar">
 	
+			 <li><a href='https://twitter.com/MikTacToe'><img src='twitter2-copy.png'/></a></li>
+       	  	<li><img src="linkedin-copy.png"></a></li>
+       	 	<li><img src="email-copy.png"></a></li>
+        	<li><img src="behance.png"></a></li>
+    		</ul>
+		</nav>
+	</header>
+<section>
 
-	
 
-<div id="container">
-<div id="body">
-<center>
-    <ul class="navbar">
-		<li><a href='file:///Users/michelletacchi/Desktop/matacchi.github.io/final/twitter.html'><img src='twitter2-copy.png'/></a></li>
-       
-        <li><img src="linkedin-copy.png"></a></li>
-        <li><img src="email-copy.png"></a></li>
-        <li><img src="behance.png"></a></li>
-        
+<div class="images">
+    <ul>
+        <li><img src="IMG_0014.png" style="width:150px; height:118px;"></li>
+        <li><img src="IMG_0028.png" style="width:150px; height:118px;"></li>
+        <li><img src="contents.jpg" style="width:150px; height:118px;"></li>
+        <li><img src="img_0041.jpg" style="width:150px; height:118px;"></li>
     </ul>
-    </center>
-</div>    
 </div>
+	<script type="text/javascript" src="path/to/jquery.js"></script>
+<script type="text/javascript" src="path/to/jquery.jcarousellite.js"></script>
+<script>
+ 
 
-	<br>
-	<br>
-	<br>
-<div class='bounding-box'>
+$(".default .carousel").jCarouselLite({
+    btnNext: ".default .next",
+    btnPrev: ".default .prev"
+});
+
+$(".auto .carousel").jCarouselLite({
+    auto: 800,
+    speed: 1000
+});
+
+$(".scrollMore .carousel").jCarouselLite({
+    btnNext: ".scrollMore .next",
+    btnPrev: ".scrollMore .prev",
+    scroll: 2
+});
+
+$(".mouseWheel .carousel").jCarouselLite({
+    mouseWheel: true
+});
+
+$(".mouseWheelButtons .carousel").jCarouselLite({
+    btnNext: ".mouseWheelButtons .next",
+    btnPrev: ".mouseWheelButtons .prev",
+    mouseWheel: true
+});
+
+$(".bounceout .carousel").jCarouselLite({
+    btnNext: ".bounceout .next",
+    btnPrev: ".bounceout .prev",
+    easing: "easeOutBounce",
+    speed: 1000
+});
+
+$(".moreItems .carousel").jCarouselLite({
+    btnNext: ".moreItems .next",
+    btnPrev: ".moreItems .prev",
+    visible: 3
+});
+
+$(".widget .carousel").jCarouselLite({
+    btnNext: ".widget .next",
+    btnPrev: ".widget .prev",
+    speed: 800,
+    easing: "backout"
+});
+
+$(".widget img").click(function() {
+    $(".widget .mid img").attr("src", $(this).attr("src"));
+});
+
+
+</script>
+
 	
-	<img src='IMG_0014.png' alt="chiclet"/>
-	<img src= 'IMG_0028.png' alt= "whales"/>
-</div>
+</section>
 
 </body>
 </html>
+   
+
